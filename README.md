@@ -12,6 +12,6 @@ Implementing machine learning  to the most essential part of the computers (oper
   
   - [ ] starting with our analysis of paper of Kernel tuning :- KernTune - Yi_Linux_kernel_optimization.pdf
   
-  
+  - [ ] then try to work on [the next level](https://docs.kali.org/development/recompiling-the-kali-linux-kernel) and optimise         the kali linux
   
   
