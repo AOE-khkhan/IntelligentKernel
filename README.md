@@ -17,12 +17,39 @@ Implementing machine learning  to the most essential part of the computers (oper
   - [ ] working on the much specific prospect  detecting the labels of the maliciosu process. 
   
 # UPDATE :- 
-getting the crux from how the linux works : [linux insides](https://legacy.gitbook.com/book/0xax/linux-insides/details). 
+getting the crux from how the linux works :[X][linux insides](https://legacy.gitbook.com/book/0xax/linux-insides/details). 
   - checking the tripwire and other file integrity checks and the logs for the OS security.
+  - how the BPF and other standard communication works . bredanengg.com . 
+  
+adding some tensorflow interaction in C  with the process  monitor on the any of the following components of the architecture :
+
+![total modules in the kernel](https://i.pinimg.com/originals/66/3e/e6/663ee695a2613f0b9d83b2a600bcf9b8.png)
 
 
 
 
 
 
-adding some tensorflow interaction in C  with the process  monitor to feed the dataset and then 
+
+# credits 
+## thanks to the linux kernel diagram , getting the information about linunx performance tools by bernard gregg and others for showing the extensive possiblities that we can  work upon so as to make the linux host the next genreration 
+
+
+
+
+# final architecture :
+
+
+[The Initial arch - V1](https://drive.google.com/uc?export=view&id=11uAgqZcNABHPUnLpHXsEzWTCEVcSo5u_)
+
+1. From here , the modules related to user and kernel space interaction , we can create the datasets of diffrent  processes with timestamp , doing the joins on the dataset based on the time and  feeding it to the tensorflow engine which will have another python based console  for writing the models and the tools in higher language  
+
+
+
+
+
+
+
+Now the actual implementation :
+
+Step-1: standardizing the data 
