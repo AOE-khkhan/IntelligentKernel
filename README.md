@@ -32,7 +32,7 @@ adding some tensorflow interaction in C  with the process  monitor on the any of
 
 
 # credits 
-## thanks to the linux kernel diagram , getting the information about linunx performance tools by bernard gregg and others for showing the extensive possiblities that we can  work upon so as to make the linux host the next genreration 
+## thanks to the linux kernel diagram by Constantine , getting the information about linunx performance tools by bernard gregg and other linux books for system programmers  for showing the extensive possiblities that we can  work upon so as to make the linux host the next genreration OS. 
 
 
 
