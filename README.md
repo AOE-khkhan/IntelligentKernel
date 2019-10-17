@@ -10,18 +10,19 @@ Implementing machine learning  to the most essential part of the computers (oper
         -  working on the  tradeoff on whether we need to mask off the errors at lower level or over allocate the resources                for error avoidance :-[this paper](https://arxiv.org/abs/1809.05859) gives good overview of that.
  
 
-  - [ ]  getting used to using C  for making machine learning models.
-        - Tensorflow api , BOOST and MLpack will be enough for consideration.
+  - [X]  getting used to using C  for making machine learning models.
+        -  BOOST and MLpack will be enough for consideration.
   
-  - [ ] then try to work on [the next level](https://docs.kali.org/development/recompiling-the-kali-linux-kernel) and optimise         the kali linux
   
-  - [ ] working on the much specific prospect rather than broadening it . 
+  - [ ] working on the much specific prospect  detecting the labels of the maliciosu process. 
   
 # UPDATE :- 
-# 1. Initial baby steps (To be completed till 4th Oct) : 
 getting the crux from how the linux works : [linux insides](https://legacy.gitbook.com/book/0xax/linux-insides/details). 
+  - checking the tripwire and other file integrity checks and the logs for the OS security.
 
 
 
 
-well i think the god father of this project will also be to devise on the foorsteps of the  paper given by Deepmind about neural computers:- https://www.nature.com/articles/nature20101 . will be  extremely ambitious but atleast optimising several parts of the operation process ( like  I/O functions , for  memory allocation and checking for malicious  payload etc).
+
+
+adding some tensorflow interaction in C  with the process  monitor to feed the dataset and then 
